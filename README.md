@@ -63,13 +63,13 @@ The [_L1_ norm][l1norm] is defined as
 ## Usage
 
 ```javascript
-import gasumpw from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gasumpw@esm/index.mjs';
+import gasumpw from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gasumpw@v0.2.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gasumpw@esm/index.mjs';
+import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gasumpw@v0.2.0-esm/index.mjs';
 ```
 
 #### gasumpw( N, x, stride )
@@ -176,7 +176,7 @@ var v = gasumpw.ndarray( N, x, 2, 1 );
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
 import round from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@esm/index.mjs';
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@esm/index.mjs';
-import gasumpw from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gasumpw@esm/index.mjs';
+import gasumpw from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gasumpw@v0.2.0-esm/index.mjs';
 
 var x;
 var i;
