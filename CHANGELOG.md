@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-01-18)
+## Unreleased (2025-06-23)
+
+<section class="features">
+
+### Features
+
+-   [`f3cc847`](https://github.com/stdlib-js/stdlib/commit/f3cc847524d28e24a95c04a5c0328f5a09a167c5) - add accessor arrays support to `blas/ext/base/gasumpw` [(#4958)](https://github.com/stdlib-js/stdlib/pull/4958)
+
+</section>
+
+<!-- /.features -->
 
 <section class="commits">
 
@@ -12,6 +22,8 @@
 
 <details>
 
+-   [`3e9f3a0`](https://github.com/stdlib-js/stdlib/commit/3e9f3a0bdc4c231521f39148dbff889815bae6d7) - **docs:** fix missing period _(by Athan Reines)_
+-   [`f3cc847`](https://github.com/stdlib-js/stdlib/commit/f3cc847524d28e24a95c04a5c0328f5a09a167c5) - **feat:** add accessor arrays support to `blas/ext/base/gasumpw` [(#4958)](https://github.com/stdlib-js/stdlib/pull/4958) _(by Muhammad Haris)_
 -   [`4cc5a5b`](https://github.com/stdlib-js/stdlib/commit/4cc5a5b0170c928b2663858eddf9f24190c703f1) - **refactor:** update `blas/ext/base/gasumpw` to follow current project conventions [(#4384)](https://github.com/stdlib-js/stdlib/pull/4384) _(by Muhammad Haris)_
 -   [`08f9c1a`](https://github.com/stdlib-js/stdlib/commit/08f9c1af6dee1cc36cda84b10230500e75d53ff5) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 
@@ -25,8 +37,9 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Muhammad Haris
 -   Philipp Burckhardt
 
