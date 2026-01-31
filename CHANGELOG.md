@@ -2,9 +2,9 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
+<section class="release" id="v0.3.0">
 
-## Unreleased (2025-06-23)
+## 0.3.0 (2026-01-31)
 
 <section class="features">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`2035f34`](https://github.com/stdlib-js/stdlib/commit/2035f344a1a469278042b7532f034dc6119933b3) - **docs:** add function documentation _(by Athan Reines)_
 -   [`3e9f3a0`](https://github.com/stdlib-js/stdlib/commit/3e9f3a0bdc4c231521f39148dbff889815bae6d7) - **docs:** fix missing period _(by Athan Reines)_
 -   [`f3cc847`](https://github.com/stdlib-js/stdlib/commit/f3cc847524d28e24a95c04a5c0328f5a09a167c5) - **feat:** add accessor arrays support to `blas/ext/base/gasumpw` [(#4958)](https://github.com/stdlib-js/stdlib/pull/4958) _(by Muhammad Haris)_
 -   [`4cc5a5b`](https://github.com/stdlib-js/stdlib/commit/4cc5a5b0170c928b2663858eddf9f24190c703f1) - **refactor:** update `blas/ext/base/gasumpw` to follow current project conventions [(#4384)](https://github.com/stdlib-js/stdlib/pull/4384) _(by Muhammad Haris)_
