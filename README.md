@@ -63,13 +63,18 @@ The [_L1_ norm][l1norm] is defined as
 ## Usage
 
 ```javascript
+import gasumpw from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gasumpw@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/blas-ext-base-gasumpw/tags). For example,
+
+```javascript
 import gasumpw from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gasumpw@v0.3.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gasumpw@v0.3.0-esm/index.mjs';
+import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gasumpw@esm/index.mjs';
 ```
 
 #### gasumpw( N, x, strideX )
@@ -166,7 +171,7 @@ var v = gasumpw.ndarray( 4, x, 2, 1 );
 <script type="module">
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
-import gasumpw from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gasumpw@v0.3.0-esm/index.mjs';
+import gasumpw from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gasumpw@esm/index.mjs';
 
 var x = discreteUniform( 10, -100, 100, {
     'dtype': 'float64'
