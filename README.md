@@ -63,13 +63,13 @@ The [_L1_ norm][l1norm] is defined as
 ## Usage
 
 ```javascript
-import gasumpw from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gasumpw@esm/index.mjs';
+import gasumpw from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gasumpw@v0.3.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gasumpw@esm/index.mjs';
+import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gasumpw@v0.3.0-esm/index.mjs';
 ```
 
 #### gasumpw( N, x, strideX )
@@ -166,7 +166,7 @@ var v = gasumpw.ndarray( 4, x, 2, 1 );
 <script type="module">
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
-import gasumpw from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gasumpw@esm/index.mjs';
+import gasumpw from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gasumpw@v0.3.0-esm/index.mjs';
 
 var x = discreteUniform( 10, -100, 100, {
     'dtype': 'float64'
